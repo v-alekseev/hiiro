@@ -54,5 +54,5 @@ struct PlanTabView<T>: View  where T: ActivityViewModelProtocol   {
 
 
 #Preview {
-    PlanTabView(viewModel: ActivityViewModel())
+    PlanTabView(viewModel: ActivityViewModel(adp: ActivitiesDataProvider()))
 }

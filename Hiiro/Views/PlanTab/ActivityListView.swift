@@ -39,5 +39,5 @@ struct ActivityListView: View {
 }
 
 #Preview {
-    ActivityListView(activitis: ActivityViewModel().visibleActivitis)
+    ActivityListView(activitis: ActivityViewModel(adp: ActivitiesDataProvider()).visibleActivitis)
 }

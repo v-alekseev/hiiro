@@ -30,5 +30,5 @@ struct CalendarView: View {
 }
 
 #Preview {
-    CalendarView(dates: ActivityViewModel().dateComponents, viewModel: ActivityViewModel())
+    CalendarView(dates: ActivityViewModel(adp: ActivitiesDataProvider()).dateComponents, viewModel: ActivityViewModel(adp: ActivitiesDataProvider()))
 }

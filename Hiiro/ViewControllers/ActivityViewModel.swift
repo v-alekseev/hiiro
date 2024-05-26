@@ -26,8 +26,12 @@ final class ActivityViewModel: ActivityViewModelProtocol {
     @Published var visibleActivitis: [Activity] = []
     @Published var dateComponents: [DateComponent] = []
     @Published var titleDate: String = ""
+    
+    
+    var activitiesDataProvider: ActivitiesDataProviderProtocol // = ActivitiesDataProvider()
 
-    init() {
+    init(adp: ActivitiesDataProviderProtocol) {
+        activitiesDataProvider = adp
         activitis = self.loadActivities("ac.json")
         dateComponents = self.loadDates()
         visibleActivitis = activitis
@@ -78,30 +82,8 @@ final class ActivityViewModel: ActivityViewModelProtocol {
     }
     
     /// Функция загружает данные об активностях из json filename
-    private func loadActivities<T: Decodable>(_ filename: String) -> T {
-        let data: Data
-        
-        guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
-        else {
-            fatalError("Couldn't find \(filename) in main bundle.")
-        }
-
-        do {
-            data = try Data(contentsOf: file)
-        } catch {
-            fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
-        }
-        
-        do {
-            let formatter = DateFormatter()
-            formatter.dateFormat = "dd/MM/yyyy"
-            let decoder = JSONDecoder()
-            decoder.dateDecodingStrategy = .formatted(formatter)
-            return try decoder.decode(T.self, from: data)
-        } catch {
-            fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
-        }
-        
+    private func loadActivities(_ filename: String) ->  [Activity] {
+        return activitiesDataProvider.loadActivities(filename)
     }
 }
 

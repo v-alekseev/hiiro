@@ -23,6 +23,7 @@
 		D8F9F8882C0372DA00FB26EA /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9F8872C0372DA00FB26EA /* CalendarView.swift */; };
 		D8F9F88A2C03741400FB26EA /* ActivityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9F8892C03741400FB26EA /* ActivityListView.swift */; };
 		D8F9F88C2C03A81500FB26EA /* PlanTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9F88B2C03A81500FB26EA /* PlanTabView.swift */; };
+		D8F9F8912C03C0F400FB26EA /* ActivitiesDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9F8902C03C0F400FB26EA /* ActivitiesDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		D8F9F8872C0372DA00FB26EA /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		D8F9F8892C03741400FB26EA /* ActivityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListView.swift; sourceTree = "<group>"; };
 		D8F9F88B2C03A81500FB26EA /* PlanTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTabView.swift; sourceTree = "<group>"; };
+		D8F9F8902C03C0F400FB26EA /* ActivitiesDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesDataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		D86529ED2BFFCD54001E0EDF /* Hiiro */ = {
 			isa = PBXGroup;
 			children = (
+				D8F9F88E2C03C0C300FB26EA /* DataProviders */,
 				D86529EE2BFFCD54001E0EDF /* HiiroApp.swift */,
 				D8652A082C011B76001E0EDF /* Model */,
 				D8F9F8752C03478600FB26EA /* ViewControllers */,
@@ -176,6 +179,14 @@
 				D8652A122C022895001E0EDF /* ActivityRowView.swift */,
 			);
 			path = PlanTab;
+			sourceTree = "<group>";
+		};
+		D8F9F88E2C03C0C300FB26EA /* DataProviders */ = {
+			isa = PBXGroup;
+			children = (
+				D8F9F8902C03C0F400FB26EA /* ActivitiesDataProvider.swift */,
+			);
+			path = DataProviders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +297,7 @@
 				D8F9F8882C0372DA00FB26EA /* CalendarView.swift in Sources */,
 				D86529EF2BFFCD54001E0EDF /* HiiroApp.swift in Sources */,
 				D8F9F88A2C03741400FB26EA /* ActivityListView.swift in Sources */,
+				D8F9F8912C03C0F400FB26EA /* ActivitiesDataProvider.swift in Sources */,
 				D8F9F8742C03169F00FB26EA /* DateComponentModel.swift in Sources */,
 				D8652A1C2C02544F001E0EDF /* ActivityViewModel.swift in Sources */,
 				D8652A132C022895001E0EDF /* ActivityRowView.swift in Sources */,

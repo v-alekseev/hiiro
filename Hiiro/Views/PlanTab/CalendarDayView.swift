@@ -44,5 +44,5 @@ struct CalendarDayView: View {
 }
 
 #Preview {
-    CalendarDayView(viewModel: ActivityViewModel(), day: DateComponent(id: 0, activeDate: ActivityDate(Date()), isActiveDat: true, isSelected: true))
+    CalendarDayView(viewModel: ActivityViewModel(adp: ActivitiesDataProvider()), day: DateComponent(id: 0, activeDate: ActivityDate(Date()), isActiveDat: true, isSelected: true))
 }
