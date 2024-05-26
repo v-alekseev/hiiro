@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1001,
+        "name": "Easy Run",
+        "iconName": "icon_EasyRun",
+        "text1": "10km",
+        "text2": "HR zone 2",
+        "date": "20/05/2024"
+    },
+    {
+        "id": 1002,
+        "name": "Intervals",
+        "iconName": "icon_Intervals",
+        "text1": "8 km",
+        "text2": "200/400 rest",
+        "date": "22/05/2024"
+    },
+    {
+        "id": 1003,
+        "name": "Strength training",
+        "iconName": "icon_StrengthTraining",
+        "text1": "1 hour",
+        "text2": "dumbbells, free wei…",
+        "date": "25/05/2024"
+    },
+    {
+        "id": 1004,
+        "name": "Tempo run",
+        "iconName": "icon_TempoRun",
+        "text1": "6 km",
+        "text2": "HR zone 2",
+        "date": "25/05/2024"
+    },
+    {
+        "id": 1005,
+        "name": "LongRun",
+        "iconName": "icon_Longrun",
+        "text1": "17 km",
+        "text2": "65%",
+        "date": "28/05/2024"
+    },
+    {
+        "id": 1006,
+        "name": "Intervals",
+        "iconName": "icon_Intervals",
+        "text1": "12 km",
+        "text2": "100/300 rest",
+        "date": "29/05/2024"
+    },
+    {
+        "id": 1007,
+        "name": "LongRun",
+        "iconName": "icon_Longrun",
+        "text1": "25 km",
+        "text2": "75%",
+        "date": "26/05/2024"
+    },
+    {
+        "id": 1008,
+        "name": "Strength training",
+        "iconName": "icon_StrengthTraining",
+        "text1": "2 hour",
+        "text2": "dumbbells, free wei…",
+        "date": "01/06/2024"
+    },
+    {
+        "id": 1009,
+        "name": "LongRun",
+        "iconName": "icon_Longrun",
+        "text1": "15 km",
+        "text2": "75%",
+        "date": "03/06/2024"
+    },
+    {
+        "id": 1010,
+        "name": "Intervals",
+        "iconName": "icon_Intervals",
+        "text1": "4 km",
+        "text2": "100/500 rest",
+        "date": "03/06/2024"
+    },
+]
