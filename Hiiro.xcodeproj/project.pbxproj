@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D81A9FCD2CCE37610048C4DA /* Hiiro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hiiro.entitlements; sourceTree = "<group>"; };
 		D86529EB2BFFCD54001E0EDF /* Hiiro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiiro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86529EE2BFFCD54001E0EDF /* HiiroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiiroApp.swift; sourceTree = "<group>"; };
 		D86529F02BFFCD54001E0EDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 		D86529ED2BFFCD54001E0EDF /* Hiiro */ = {
 			isa = PBXGroup;
 			children = (
+				D81A9FCD2CCE37610048C4DA /* Hiiro.entitlements */,
 				D8F9F88E2C03C0C300FB26EA /* DataProviders */,
 				D86529EE2BFFCD54001E0EDF /* HiiroApp.swift */,
 				D8652A082C011B76001E0EDF /* Model */,
@@ -449,11 +451,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hiiro/Hiiro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hiiro/Preview Content\"";
+				DEVELOPMENT_TEAM = A28FTYB68V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HiiroMyTest;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -480,11 +485,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Hiiro/Hiiro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hiiro/Preview Content\"";
+				DEVELOPMENT_TEAM = A28FTYB68V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HiiroMyTest;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
